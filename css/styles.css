@@ -17,8 +17,20 @@ body {
 }
 
 header {
-    background-color: rgb(218, 219, 241);
+    color: #fff;
+    background-color: #000;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: inherit;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
