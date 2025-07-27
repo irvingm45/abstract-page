@@ -20,8 +20,10 @@ header {
     color: #fff;
     background-color: #000;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
+    height: 20%;
+    padding: 20px 0;
 }
 
 header a {
@@ -30,6 +32,61 @@ header a {
 }
 
 .logo {
+    background-color: #fff;
+    border-radius: 20%;
+}
+
+.logo-text[href]::before {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 40px;
+    background-color: #fff;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+.logo-text {
+    font-size: 24px;
+    margin-left: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#right-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+#search-bar {
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 25%;
+}
+
+.normal-button {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 24px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: transparent;
+}
+
+.sign-button {
+    border-color: transparent;
+    background-color: rgb(76, 95, 213);
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo-area {
     display: flex;
     align-items: center;
     justify-content: space-around;
